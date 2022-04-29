@@ -1,0 +1,17 @@
+/* .colum{
+    float: left;
+    width: 25%;
+    padding: 20px;
+    margin-top: 50px;
+} */
+
+.colum{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 100px;
+    background-color: black;
+    padding: 20px;
+    color: rgba(245, 245, 245, 0.363);
+    font-size: large;
+    
+}

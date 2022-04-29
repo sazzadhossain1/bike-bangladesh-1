@@ -24,15 +24,13 @@ const Header = () => {
               <Nav.Link className="text-primary" as={Link} to="/home">
                 Home
               </Nav.Link>
-
               <Nav.Link className="text-primary" as={Link} to="/blogs">
                 Blogs
               </Nav.Link>
 
-
               {user ? (
                 <>
-                 <Nav.Link
+                  <Nav.Link
                     className="text-primary"
                     as={Link}
                     to="/manageItems"
@@ -40,19 +38,11 @@ const Header = () => {
                     Manage Items
                   </Nav.Link>
 
-                 <Nav.Link
-                    className="text-primary"
-                    as={Link}
-                    to="/addItem"
-                  >
+                  <Nav.Link className="text-primary" as={Link} to="/addItem">
                     Add Item
                   </Nav.Link>
 
-                 <Nav.Link
-                    className="text-primary"
-                    as={Link}
-                    to="/myItems"
-                  >
+                  <Nav.Link className="text-primary" as={Link} to="/myItems">
                     My Items
                   </Nav.Link>
 
@@ -64,8 +54,6 @@ const Header = () => {
                   >
                     LogOut
                   </Nav.Link>
-
-
                 </>
               ) : (
                 <Nav.Link className="text-primary" as={Link} to="/login">
@@ -73,11 +61,11 @@ const Header = () => {
                 </Nav.Link>
               )}
 
+              
+
               <Nav.Link className="text-primary" as={Link} to="/signup">
                 Sign Up
               </Nav.Link>
-
-           
             </Nav>
           </Navbar.Collapse>
         </Container>
