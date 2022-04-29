@@ -1,9 +1,18 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import GoogleButton from '../GoogleButton/GoogleButton';
 import './Login.css';
 
 const Login = () => {
+    const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const navigate = useNavigate();
+
+
+
+  const handleEmailBlur = (event) => {
+    setEmail(event.target.value);
+  };
     return (
         <div className="input-container">
         <div className="input-area">
