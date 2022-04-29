@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import GoogleButton from '../GoogleButton/GoogleButton';
 import './Login.css';
 
 const Login = () => {
@@ -39,7 +40,8 @@ const Login = () => {
               Reset Password
             </button>
           </p>
-  
+          <GoogleButton></GoogleButton>
+
            
         </div>
       </div>
