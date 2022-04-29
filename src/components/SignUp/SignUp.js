@@ -12,7 +12,7 @@ const SignUp = () => {
   const [error, setError] = useState("");
   const navigate = useNavigate();
 
-  const [createUserWithEmailAndPassword, user] =
+  const [createUserWithEmailAndPassword, user, loading] =
     useCreateUserWithEmailAndPassword(auth);
 
   const handleEmailBlur = (event) => {
@@ -27,9 +27,9 @@ const SignUp = () => {
     setConfirmPassword(event.target.value);
   };
 
-if(user){
-    navigate('/')
-}
+  if (user) {
+    navigate("/");
+  }
 
   const handleCreateUser = (event) => {
     event.preventDefault();
@@ -37,9 +37,9 @@ if(user){
       setError("Wrong password,Password did not match");
       return;
     }
-    if(password.length <8){
-        setError('Password must be 8 characters or longer');
-        return;
+    if (password.length < 8) {
+      setError("Password must be 8 characters or longer");
+      return;
     }
 
     createUserWithEmailAndPassword(email, password);
@@ -78,6 +78,13 @@ if(user){
               required
             />
             <p style={{ color: "red" }}>{error}</p>
+            {loading && (
+              <p style={{ color: "white" }}>
+                Loading...
+                <br />
+                Please Waite
+              </p>
+            )}
             <button className="button">Sign Up</button>
           </form>
 
