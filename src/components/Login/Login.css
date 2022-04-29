@@ -1,0 +1,13 @@
+.input-container {
+  background: url(https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2020/01/1-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 750px;
+}
+.input-area input {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  width: 500px;
+  height: 40px;
+}

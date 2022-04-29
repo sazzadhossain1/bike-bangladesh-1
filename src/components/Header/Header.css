@@ -1,0 +1,15 @@
+.color{
+    background-color: rgba(0, 0, 0, 0.966);
+}
+.text{
+font-weight: 800;
+}
+
+.right-nav-link{
+    margin: 20px;
+}
+
+.right-nav-link a{
+    margin-left: 20px;
+    font-size: larger;
+}
