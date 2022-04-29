@@ -7,7 +7,7 @@ const Login = () => {
         <div className="input-container">
         <div className="input-area">
           <form >
-            <h3>Please Login</h3>
+            <h3 className='form-title'>Please Login</h3>
   
             <input
               type="email"
@@ -25,7 +25,7 @@ const Login = () => {
               required
             />
             
-            <button>Login</button>
+            <button className='button'>Login</button>
           </form>
   
           <p className="google-link m-4">
@@ -35,7 +35,7 @@ const Login = () => {
   
           <p className="google-link m-4">
             Forget Password?
-            <button   >
+            <button className='button m-1'  >
               Reset Password
             </button>
           </p>

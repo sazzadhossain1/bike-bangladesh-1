@@ -1,8 +1,22 @@
 .input-container {
-  background: url(https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2020/01/1-1.jpg);
+  background: url(https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2019/12/byke-slider-3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 750px;
+  padding: 20px;
+}
+.form-title{
+    color: blue;
+    
+}
+.input-area{
+    background-color: rgba(0, 0, 0, 0.678);
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding: 20px;
 }
 .input-area input {
   display: block;
@@ -10,4 +24,20 @@
   margin-top: 20px;
   width: 500px;
   height: 40px;
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.button{
+    margin-top: 50px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+}
+
+.google-link{
+    color:white;
+    
 }
