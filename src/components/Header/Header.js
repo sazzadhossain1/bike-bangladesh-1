@@ -24,6 +24,9 @@ const Header = () => {
               <Nav.Link className="text-primary" as={Link} to="/home">
                 Home
               </Nav.Link>
+              <Nav.Link className="text-primary" as={Link} to="/products">
+                Products
+              </Nav.Link>
               <Nav.Link className="text-primary" as={Link} to="/blogs">
                 Blogs
               </Nav.Link>
@@ -60,8 +63,6 @@ const Header = () => {
                   Login
                 </Nav.Link>
               )}
-
-              
 
               <Nav.Link className="text-primary" as={Link} to="/signup">
                 Sign Up

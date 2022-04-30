@@ -8,6 +8,7 @@ import Home from "./components/Home/Home";
 import Login from "./components/Login/Login";
 import ManageItems from "./components/ManageItems/ManageItems";
 import MyItems from "./components/MyItems/MyItems";
+import Products from "./components/Products/Products";
 import SignUp from "./components/SignUp/SignUp";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="/signup" element={<SignUp></SignUp>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
+        <Route path="/products" element={<Products></Products>}></Route>
       </Routes>
       <Footer></Footer>
     </div>
