@@ -12,7 +12,7 @@
 .products-info{
     background-color: white;
     width: 400px;
-    height: 350px;
+    height: 500px;
     padding: 20px;
     margin: auto;
     box-shadow: 10px 10px 10px 10px rgba(8, 178, 230, 0.233);
@@ -21,4 +21,19 @@
 
 .products-info:hover{
     color: rgb(58, 7, 241);
+}
+
+
+.order-button{
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.order-button a{
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+   
 }
