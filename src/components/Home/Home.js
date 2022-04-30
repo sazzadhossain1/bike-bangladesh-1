@@ -14,6 +14,10 @@ import photo9 from "../../image/allBrands/brand-9.jpg";
 import photo10 from "../../image/allBrands/brand-10.jpg";
 import photo12 from "../../image/allBrands/brand-12.png";
 
+import picture1 from "../../image/Mileage Bikes/best-bike-1.png";
+import picture2 from "../../image/Mileage Bikes/best-bike-2.png";
+import picture3 from "../../image/Mileage Bikes/best-bike-3.png";
+
 const Home = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
@@ -86,12 +90,27 @@ const Home = () => {
         </div>
         <hr />
       </section>
-      <section>
-        
+      <section className="mileage-section">
+        <p style={{color: 'red'}}>For More Mileage</p>
+        <h3 className="mb-5">Best Mileage Bike</h3>
+        <div className="mileage-bike">
+          <div>
+            <img src={picture1} alt="" />
+            <h5>Mercedez Benz</h5>
+            <p>450,000 Taka</p>
+          </div>
+          <div>
+            <img src={picture2} alt="" />
+            <h5>BMW 720 Series</h5>
+            <p>400,000 Taka</p>
+          </div>
+          <div>
+            <img src={picture3} alt="" />
+            <h5>Honda Civic</h5>
+            <p>350,000 Taka</p>
+          </div>
+        </div>
       </section>
-
-
-
     </div>
   );
 };
