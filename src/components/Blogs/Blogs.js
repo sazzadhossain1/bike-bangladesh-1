@@ -3,8 +3,8 @@ import "./Blogs.css";
 
 const Blogs = () => {
   return (
-    <div>
-      <div>
+    <div className="main-container">
+      <div className="blog-text">
         <h2>Qus-1) Difference between javascript and nodejs?</h2>
         <p>
           Ans: Javascript is a programming language that is used for writing
@@ -42,15 +42,41 @@ const Blogs = () => {
           described in BSON, a binary representation of the data. Applications
           can then retrieve this information in a JSON format.
         </p>
-        <h2>Qus-3)  What is the purpose of jwt and how does it work?</h2>
+        <h2>Qus-3) What is the purpose of jwt and how does it work?</h2>
         <p>
-            Ans: JWT, or JSON Web Token, is an open standard used to share security information between two parties — a client and a server. Each JWT contains encoded JSON objects, including a set of claims. JWTs are signed using a cryptographic algorithm to ensure that the claims cannot be altered after the token is issued.
+          Ans: JWT, or JSON Web Token, is an open standard used to share
+          security information between two parties — a client and a server. Each
+          JWT contains encoded JSON objects, including a set of claims. JWTs are
+          signed using a cryptographic algorithm to ensure that the claims
+          cannot be altered after the token is issued.
         </p>
-        <p>Client login with username and password.Server creates a token for the client.And server send a token to the client</p>
+        <p>
+          Client login with username and password.Server creates a token for the
+          client.And server send a token to the client
+        </p>
+
+
+
+        <h2>Qus-4) Differences between sql and nosql databases?</h2>
+      <p>
+        Ans:Structured Query language (SQL) pronounced as SQL or sometimes as
+        See-Quel is the standard language for dealing with Relational Databases.
+        A relational database defines relationships in the form of. SQL
+        programming can be effectively used to insert, search, update, delete
+        database records. That does not mean SQL cannot do things beyond that.
+        It can do a lot of things including, but not limited to, optimizing and
+        maintenance of databases.
+      </p>
+      <p>
+        NoSQL is a non-relational DMS, that does not require a fixed schema,
+        avoids joins, and is easy to scale. NoSQL database is used for
+        distributed data stores with humongous data storage needs. NoSQL is used
+        for Big data and real-time web apps. For example companies like Twitter,
+        Facebook, Google that collect terabytes of user data every single day.
+      </p>
       </div>
 
-      <h2>Qus-4) Differences between sql and nosql databases.</h2>
-      <p></p>
+      
     </div>
   );
 };
