@@ -4,3 +4,10 @@
     background-size:cover;
     height: 700px;
 }
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 100px;
+    grid-gap: 30px;
+}

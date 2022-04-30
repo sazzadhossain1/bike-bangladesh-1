@@ -1,44 +1,39 @@
 [
-    {
-      "id": 1,
-      "name": "John Hardy",
-      "review": "That was Awesome,I Love it ",
-      "rating": 4.5,
-      "image": "https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2019/12/2-255x170.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Justin Bieber ",
-      "review": "That was very Good.I want to eit again",
-      "rating": 5.0,
-      "image": "https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2020/01/5-1-255x170.jpg"
-    },
-    {
-      "id": 3,
-      "name": "Jhon Daket",
-      "review": "I just Love it.That was delicious",
-      "rating": 4.99,
-      "image": "https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2020/01/1-1-255x170.jpg"
-    },
-    {
-      "id": 4,
-      "name": "Sazzad Hossain ",
-      "review": "This is very good and delicious.I want to eit again ",
-      "rating": 5.0,
-      "image": "https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2020/01/4-2-255x170.jpg"
-    },
-    {
-      "id": 5,
-      "name": " Rossy Ibrahim ",
-      "review": "Love this Food.",
-      "rating": 4.0,
-      "image": "https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2020/01/t-bike-5.jpg"
-    },
-    {
-      "id": 6,
-      "name": "Justin Trudo",
-      "review": "WoW i love this burger.It is so delicious.I want to order again again ",
-  
-      "image": "https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2020/01/t-bike-6.jpg"
-    }
-  ]
+  {
+    "_id": 1,
+    "name": "Mercedez Benz",
+    "Price": "620,000",
+    "image": "https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2020/03/best-bike-1.png"
+  },
+  {
+    "_id": 2,
+    "name": "Honda Civic",
+    "Price": "600,000",
+    "image": "https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2020/03/best-bike-3.png"
+  },
+  {
+    "_id": 3,
+    "name": "BMW 720 Series",
+    "Price": "800,000",
+    "image": "https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2020/03/best-bike-2.png"
+  },
+  {
+    "_id": 4,
+    "name": "79 ADVENTURE 2010",
+    
+    "Price": "245,000",
+    "image": "https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2020/01/t-bike-5.jpg"
+  },
+  {
+    "_id": 5,
+    "name": "79 ADVENTURE 2018",
+    "Price": "390,000",
+    "image": "https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2020/01/t-bike-4.jpg"
+  },
+  {
+    "_id": 6,
+    "name": "TSK 950CC Two Disk",
+    "Price": "500,000",
+    "image": "https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2020/01/t-bike-6.jpg"
+  }
+]

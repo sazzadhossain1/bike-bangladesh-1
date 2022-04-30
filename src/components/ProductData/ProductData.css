@@ -1,0 +1,24 @@
+
+.name{
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.price{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.products-info{
+    background-color: white;
+    width: 400px;
+    height: 350px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 10px 10px 10px 10px rgba(8, 178, 230, 0.233);
+
+}
+
+.products-info:hover{
+    color: rgb(58, 7, 241);
+}
