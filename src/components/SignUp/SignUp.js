@@ -103,10 +103,7 @@ const SignUp = () => {
             <Link to="/login">Login</Link>
           </p>
 
-          <p className="google-link m-4">
-            Forget Password?
-            <button className="button m-1">Reset Password</button>
-          </p>
+          
           <GoogleButton></GoogleButton>
         </div>
       </div>

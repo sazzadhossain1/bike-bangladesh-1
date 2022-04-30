@@ -11,3 +11,19 @@
     margin-top: 100px;
     grid-gap: 30px;
 }
+.brand-title{
+    margin-top: 100px;
+}
+
+.brand-title h3{
+    font-weight: 700;
+}
+
+.all-brand{
+    width: 700px;
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+}
