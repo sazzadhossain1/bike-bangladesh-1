@@ -8,6 +8,7 @@ import Home from "./components/Home/Home";
 import Login from "./components/Login/Login";
 import ManageItems from "./components/ManageItems/ManageItems";
 import MyItems from "./components/MyItems/MyItems";
+import NotFound from "./components/NotFound/NotFound";
 import Products from "./components/Products/Products";
 import RequireAuth from "./components/RequireAuth/RequireAuth";
 import SignUp from "./components/SignUp/SignUp";
@@ -38,6 +39,7 @@ function App() {
             </RequireAuth>
           }
         ></Route>
+        <Route path="/*" element={<NotFound></NotFound>}></Route>
       </Routes>
       {/* <Footer></Footer> */}
     </div>
