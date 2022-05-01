@@ -46,5 +46,29 @@
     "quantity":"110",
     "supplierName":"Lanee Leo",
     "image": "https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2020/01/t-bike-6.jpg"
+  },
+  {
+    "_id": 7,
+    "name": "TSK 950CC Two Disk",
+    "Price": "400,000",
+    "quantity":"100",
+    "supplierName":" Leo Jhon",
+    "image": "https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2020/01/5-1-255x170.jpg"
+  },
+  {
+    "_id": 8,
+    "name": "Honda CBZ 150cc",
+    "Price": "450,000",
+    "quantity":"200",
+    "supplierName":" Donal Trump",
+    "image": "https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2019/11/bike-blog-3.jpg"
+  },
+  {
+    "_id": 9,
+    "name": "KTM 150cc",
+    "Price": "490,000",
+    "quantity":"50",
+    "supplierName":" Joo Baiden",
+    "image": "https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2019/11/bike-blog-2.jpg"
   }
 ]

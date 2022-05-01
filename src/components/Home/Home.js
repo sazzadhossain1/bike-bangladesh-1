@@ -38,7 +38,7 @@ const Home = () => {
       </div>
 
       <div className="products">
-        {products.map((product) => (
+        {products.slice(0, 6).map((product) => (
           <ProductData key={product._id} product={product}></ProductData>
         ))}
       </div>

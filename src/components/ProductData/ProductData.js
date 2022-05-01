@@ -13,7 +13,7 @@ const ProductData = ({ product }) => {
         <p className="price">{Price} - Taka</p>
         <p>Quantity-{quantity}</p>
         <button className="order-button">
-          <Link to="/updateBike">Update Now</Link>
+          <Link to="/products">Update Now</Link>
         </button>
       </div>
     </div>
