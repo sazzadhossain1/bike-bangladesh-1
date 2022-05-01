@@ -9,6 +9,7 @@ import Login from "./components/Login/Login";
 import ManageItems from "./components/ManageItems/ManageItems";
 import MyItems from "./components/MyItems/MyItems";
 import NotFound from "./components/NotFound/NotFound";
+import ProductDetails from "./components/ProductDetails/ProductDetails";
 import Products from "./components/Products/Products";
 import RequireAuth from "./components/RequireAuth/RequireAuth";
 import SignUp from "./components/SignUp/SignUp";
@@ -30,15 +31,24 @@ function App() {
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="/signup" element={<SignUp></SignUp>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
-        <Route path="/products" element={<Products></Products>}></Route>
-        {/* <Route
-          path="/updateBike"
+        <Route
+          path="/products"
           element={
             <RequireAuth>
-              <UpdateBike></UpdateBike>
+              <Products></Products>
             </RequireAuth>
           }
+        ></Route>
+        {/* <Route
+          path="/productDetails"
+          element={<ProductDetails></ProductDetails>}
         ></Route> */}
+
+        <Route
+          path="/productDetails/:productId"
+          element={<ProductDetails></ProductDetails>}
+        ></Route>
+
         <Route path="/*" element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>

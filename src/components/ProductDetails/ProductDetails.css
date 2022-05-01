@@ -1,0 +1,28 @@
+.detail-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 370px;
+    margin-top: 100px;
+}
+
+.img{
+
+}
+
+.add-button{
+    border: none;
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    color: wheat;
+}
+
+.text-field{
+    height: 40px;
+    padding: 10px;
+    width: 300px;
+    border: none;
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px rgba(98, 165, 185, 0.233);
+
+}

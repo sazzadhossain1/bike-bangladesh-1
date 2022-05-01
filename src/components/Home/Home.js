@@ -17,6 +17,7 @@ import photo12 from "../../image/allBrands/brand-12.png";
 import picture1 from "../../image/Mileage Bikes/best-bike-1.png";
 import picture2 from "../../image/Mileage Bikes/best-bike-2.png";
 import picture3 from "../../image/Mileage Bikes/best-bike-3.png";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const [products, setProducts] = useState([]);
@@ -42,6 +43,9 @@ const Home = () => {
           <ProductData key={product._id} product={product}></ProductData>
         ))}
       </div>
+      <button className="view-button mt-5">
+          <Link to="/products">View All Products</Link>
+        </button>
 
       <section className="brand-title">
         <p style={{ color: "red" }}>All Brand</p>

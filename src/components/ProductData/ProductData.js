@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./ProductData.css";
 
 const ProductData = ({ product }) => {
-  const { name, image, Price, quantity, supplierName } = product;
+  const { _id, name, image, Price, quantity, supplierName } = product;
   return (
     <div>
       <div className="products-info">
@@ -13,7 +13,9 @@ const ProductData = ({ product }) => {
         <p className="price">{Price} - Taka</p>
         <p>Quantity-{quantity}</p>
         <button className="order-button">
-          <Link to="/products">Update Now</Link>
+          <Link to={`/productDetails/${_id}`} className="all-products-btn">
+            Update Product
+          </Link>{" "}
         </button>
       </div>
     </div>

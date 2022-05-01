@@ -59,4 +59,19 @@ hr{
     margin: auto;
     margin-top: 50px;
 }
+.view-button{
+    border: none;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(158, 158, 202);
+}
+.view-button a{
+    text-decoration: none;
+    color: black;
 
+}
+.view-button:hover{
+    background-color: rgb(58, 126, 204);
+    font-weight: 600;
+}
