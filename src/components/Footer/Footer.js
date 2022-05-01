@@ -6,7 +6,8 @@ const Footer = () => {
   const year = today.getFullYear();
   return (
     <div>
-      <div className="parent-div">
+      
+      <div className="parent-div ">
         <div className="colum">
           <div className="mt-5">
             <h5>Useful Link</h5>

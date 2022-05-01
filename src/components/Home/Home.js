@@ -21,7 +21,7 @@ import picture3 from "../../image/Mileage Bikes/best-bike-3.png";
 const Home = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    fetch("fakeData.json")
+    fetch("http://localhost:5000/product")
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);
@@ -117,8 +117,11 @@ const Home = () => {
             <h5>Honda Civic</h5>
             <p>350,000 Taka</p>
           </div>
+          
         </div>
+        
       </section>
+      
     </div>
   );
 };
