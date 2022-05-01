@@ -1,17 +1,19 @@
-/* .colum{
-    float: left;
-    width: 25%;
-    padding: 20px;
-    margin-top: 50px;
-} */
 
+.parent-div{
+    background-color: black;
+    height: 410px;
+
+}
 .colum{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    margin-top: 100px;
-    background-color: black;
+    grid-template-columns: repeat(3, 1fr);
     padding: 20px;
+
     color: rgba(245, 245, 245, 0.363);
     font-size: large;
+    margin: auto;
     
+}
+.CopyRight{
+    color: white;
 }

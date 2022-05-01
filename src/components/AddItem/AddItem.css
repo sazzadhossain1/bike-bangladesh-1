@@ -1,0 +1,32 @@
+.main-div{
+    margin-top: 40px;
+
+}
+.inpur-field{
+    background-color: rgb(175, 185, 243);
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 100px;
+    box-shadow: 10px 10px 10px 10px rgba(49, 8, 230, 0.233);
+
+}
+.input {
+  width: 500px;
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+}
+.update-button{
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.update-button:hover{
+    background-color: rgb(104, 160, 233);
+    color: white;
+}

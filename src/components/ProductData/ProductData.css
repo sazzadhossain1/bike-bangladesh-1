@@ -31,6 +31,11 @@
     border-radius: 5px;
 }
 
+.order-button:hover{
+    background-color: rgb(148, 188, 248);
+    color: white;
+}
+
 .order-button a{
     text-decoration: none;
     color: black;

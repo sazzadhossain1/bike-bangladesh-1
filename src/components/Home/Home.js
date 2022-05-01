@@ -27,7 +27,15 @@ const Home = () => {
   }, []);
   return (
     <div>
-      <div className="home-container"></div>
+      <div className="home-container">
+        <div className="banner-title">
+          <div className="title">
+            <h3>The Racing Horse Back</h3>
+            <h1>Ultimate Horse on track</h1>
+            <h2>HONDA CBR</h2>
+          </div>
+        </div>
+      </div>
 
       <div className="products">
         {products.map((product) => (
@@ -91,7 +99,7 @@ const Home = () => {
         <hr />
       </section>
       <section className="mileage-section">
-        <p style={{color: 'red'}}>For More Mileage</p>
+        <p style={{ color: "red" }}>For More Mileage</p>
         <h3 className="mb-5">Best Mileage Bike</h3>
         <div className="mileage-bike">
           <div>

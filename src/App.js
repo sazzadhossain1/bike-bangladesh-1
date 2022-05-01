@@ -31,14 +31,14 @@ function App() {
         <Route path="/signup" element={<SignUp></SignUp>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/products" element={<Products></Products>}></Route>
-        <Route
+        {/* <Route
           path="/updateBike"
           element={
             <RequireAuth>
               <UpdateBike></UpdateBike>
             </RequireAuth>
           }
-        ></Route>
+        ></Route> */}
         <Route path="/*" element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>

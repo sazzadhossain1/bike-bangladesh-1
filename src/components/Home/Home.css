@@ -3,6 +3,16 @@
     background-repeat: no-repeat;
     background-size:cover;
     height: 700px;
+    padding: 100px;
+    
+    
+}
+
+.banner-title{
+    margin-right: 800px;
+    color:rgb(34, 25, 122)
+
+    
 }
 
 .products{
