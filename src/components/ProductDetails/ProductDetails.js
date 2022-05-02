@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import picture3 from "../../image/Mileage Bikes/best-bike-3.png";
 import './ProductDetails.css';
 
 const ProductDetails = () => {
@@ -16,13 +15,13 @@ const ProductDetails = () => {
   }, [product]);
   return (
     <div>
-      <div className="detail-container">
+      <div className="detail-container mt-5 mb-5">
         <div className="img">
           <img className="mt-5" src={product.image} alt="" />
         </div>
-        <div>
+        <div className="info-container">
           <h5>Supplier Name: {product.supplierName}</h5>
-          <p>Price - {product.quantity}</p>
+          <p>Price - {product.Price}</p>
           <p>Quantity : {product.quantity}</p>
 
           <div>

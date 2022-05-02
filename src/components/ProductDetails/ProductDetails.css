@@ -1,8 +1,13 @@
 .detail-container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    height: 500px;
-    margin-top: 100px;
+    
+   margin-top: 30px;
+    margin-bottom: 100px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 10px 10px rgba(98, 165, 185, 0.233);
+    width: 570px;
+    margin: auto;
+   padding: 30px;
+    
 }
 
 .img{
@@ -13,6 +18,10 @@
     
 
 
+}
+
+.info-container{
+    margin-top: 30px;
 }
 
 .add-button{
