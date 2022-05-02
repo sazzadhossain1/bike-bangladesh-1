@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import ProductData from "../ProductData/ProductData";
+import DeleteComponent from "../DeleteComponent/DeleteComponent";
 import './Products.css';
 
 const Products = () => {
@@ -14,7 +14,7 @@ const Products = () => {
       <h1>Our All products</h1>
       <div className="products">
         {products.map((product) => (
-          <ProductData key={product._id} product={product}></ProductData>
+          <DeleteComponent key={product._id} product={product}></DeleteComponent>
           
         ))}
         
