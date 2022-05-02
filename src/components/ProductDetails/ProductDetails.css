@@ -1,43 +1,45 @@
-.detail-container{
-    
-   margin-top: 30px;
-    margin-bottom: 100px;
-    border: 1px solid black;
-    box-shadow: 10px 10px 10px 10px rgba(98, 165, 185, 0.233);
-    width: 570px;
-    margin: auto;
-   padding: 30px;
+.mother-container{
+    background-image: url("https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2019/12/byke-slider-4.jpg");
+    padding: 50px;
     
 }
 
-.img{
-    box-shadow: 10px 10px 10px 10px rgba(98, 165, 185, 0.233);
-    height: 300px;
-    width: 500px;
-    margin: auto;
-    
-
-
+.detail-container {
+  margin-top: 30px;
+  margin-bottom: 100px;
+  border: 1px solid black;
+  box-shadow: 10px 10px 10px 10px rgba(98, 165, 185, 0.233);
+  width: 670px;
+  margin-left: 100px;
+  padding: 30px;
+  color: white;
+  
 }
 
-.info-container{
-    margin-top: 30px;
+.img {
+  box-shadow: 10px 10px 10px 10px rgba(98, 165, 185, 0.233);
+  height: 400px;
+  width: 500px;
+  margin: auto;
 }
 
-.add-button{
-    border: none;
-    height: 40px;
-    width: 150px;
-    background-color: black;
-    color: wheat;
+.info-container {
+  margin-top: 30px;
 }
 
-.text-field{
-    height: 40px;
-    padding: 10px;
-    width: 300px;
-    border: none;
-    background-color: white;
-    box-shadow: 10px 10px 10px 10px rgba(98, 165, 185, 0.233);
+.add-button {
+  border: none;
+  height: 40px;
+  width: 150px;
+  background-color: black;
+  color: wheat;
+}
 
+.text-field {
+  height: 40px;
+  padding: 10px;
+  width: 300px;
+  border: none;
+  background-color: white;
+  box-shadow: 10px 10px 10px 10px rgba(98, 165, 185, 0.233);
 }

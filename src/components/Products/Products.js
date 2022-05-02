@@ -14,7 +14,7 @@ const Products = () => {
       <h1>Our All products</h1>
       <div className="products">
         {products.map((product) => (
-          <DeleteComponent key={product._id} product={product}></DeleteComponent>
+          <DeleteComponent key={product._id} product={product} ></DeleteComponent>
           
         ))}
         

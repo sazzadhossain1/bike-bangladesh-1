@@ -5,7 +5,7 @@ import "./ProductData.css";
 const ProductData = ({ product }) => {
   const { _id, name, image, Price, quantity, supplierName } = product;
   return (
-    <div>
+    <div className="col-sm-12">
       <div className="products-info">
         <img src={image} alt="" />
         <p className="name">{name}</p>

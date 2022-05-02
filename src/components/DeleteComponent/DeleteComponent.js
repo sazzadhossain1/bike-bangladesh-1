@@ -13,8 +13,9 @@ const DeleteComponent = ({ product }) => {
       .then((res) => res.json())
       .then((data) => setProduct1(data));
   }, []);
+
   const handleUserDelete = (productId) => {
-    const proceed = window.confirm("Are you sure you want to delete?");
+    const proceed = window.confirm("Are you sure you want to delete this product?");
     if (proceed) {
       console.log("deleting user with id, ", productId);
       const url =` http://localhost:5000/product/${productId}`;
@@ -23,10 +24,15 @@ const DeleteComponent = ({ product }) => {
       })
         .then((res) => res.json())
         .then((data) => {
-          console.log(data);
-          const remaining = product1.filter(
-            (product) => product._id !== productId
-          );
+            const remaining = product1.filter(product => product._id !== productId);
+        //   console.log(data);
+        //   const remaining = product1.filter(
+        //     (product) => product._id !== productId
+            
+        //   );
+
+
+          console.log(product._id);
           setProduct1(remaining);
         });
     }

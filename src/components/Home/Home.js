@@ -28,7 +28,7 @@ const Home = () => {
       .then((data) => setProducts(data));
   }, []);
   return (
-    <div>
+    <div className="w">
       <div className="home-container">
         <div className="banner-title">
           <Carousel>
@@ -78,7 +78,7 @@ const Home = () => {
       </div>
 
         <h1 className="my-5">Our Bike For You</h1>
-      <div className="products">
+      <div className="products row">
         {products.slice(0, 6).map((product) => (
           <ProductData key={product._id} product={product}></ProductData>
         ))}
@@ -86,6 +86,9 @@ const Home = () => {
       <button className="view-button mt-5">
         <Link to="/products">View All Products</Link>
       </button>
+
+
+
 
       <section className="brand-title">
         <p style={{ color: "red" }}>All Brand</p>

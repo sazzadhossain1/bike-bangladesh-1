@@ -14,7 +14,7 @@ const ProductDetails = () => {
       .then((data) => setProduct(data));
   }, [product]);
   return (
-    <div>
+    <div className="mother-container">
       <div className="detail-container mt-5 mb-5">
         <div className="img">
           <img className="mt-5" src={product.image} alt="" />
