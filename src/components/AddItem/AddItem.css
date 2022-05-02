@@ -26,7 +26,15 @@
     border-radius: 10px;
 }
 
-.update-button:hover{
+.update-product:hover{
     background-color: rgb(104, 160, 233);
     color: white;
+}
+
+.update-product{
+    border: none;
+    margin-top: 30px;
+    height: 45px;
+    width: 200px;
+    margin-bottom: 50px;
 }
