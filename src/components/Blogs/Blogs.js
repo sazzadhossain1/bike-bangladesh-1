@@ -5,7 +5,7 @@ const Blogs = () => {
   return (
     <div className="main-container">
       <div className="blog-text">
-        <h2>Qus-1) Difference between javascript and nodejs?</h2>
+        <h5>Qus-1) Difference between javascript and nodejs?</h5>
         <p>
           Ans: Javascript is a programming language that is used for writing
           scripts on a website.Javascript can only be run in the browsers.It is
@@ -22,9 +22,9 @@ const Blogs = () => {
           is written in C, C++, and Javascript.
         </p>
 
-        <h2>
+        <h5>
           Qus-2) When should you use nodejs and when should you use mongodb?
-        </h2>
+        </h5>
 
         <p>
           Ans: Node. js is primarily used for non-blocking, event-driven
@@ -42,7 +42,7 @@ const Blogs = () => {
           described in BSON, a binary representation of the data. Applications
           can then retrieve this information in a JSON format.
         </p>
-        <h2>Qus-3) What is the purpose of jwt and how does it work?</h2>
+        <h5>Qus-3) What is the purpose of jwt and how does it work?</h5>
         <p>
           Ans: JWT, or JSON Web Token, is an open standard used to share
           security information between two parties — a client and a server. Each
@@ -57,7 +57,7 @@ const Blogs = () => {
 
 
 
-        <h2>Qus-4) Differences between sql and nosql databases?</h2>
+        <h5>Qus-4) Differences between sql and nosql databases?</h5>
       <p>
         Ans:Structured Query language (SQL) pronounced as SQL or sometimes as
         See-Quel is the standard language for dealing with Relational Databases.
