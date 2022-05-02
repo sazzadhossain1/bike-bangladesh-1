@@ -18,6 +18,7 @@ import picture1 from "../../image/Mileage Bikes/best-bike-1.png";
 import picture2 from "../../image/Mileage Bikes/best-bike-2.png";
 import picture3 from "../../image/Mileage Bikes/best-bike-3.png";
 import { Link } from "react-router-dom";
+import { Carousel } from "react-bootstrap";
 
 const Home = () => {
   const [products, setProducts] = useState([]);
@@ -30,22 +31,61 @@ const Home = () => {
     <div>
       <div className="home-container">
         <div className="banner-title">
-          <div className="title">
-            <h3>The Racing Horse Back</h3>
-            <h1>Ultimate Horse on track</h1>
-            <h2>HONDA CBR</h2>
-          </div>
+          <Carousel>
+            <Carousel.Item>
+              <img
+                className="d-block w-100 banner-img"
+                src="https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2019/12/byke-slider-2.jpg"
+                alt="First slide"
+              />
+              <Carousel.Caption>
+                <h3><img src="https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2019/12/bike-name-1.png" alt="" /></h3>
+                <h1>Ultimate Horse on track</h1>
+                <h2>Honda CBR</h2>
+                
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100 banner-img"
+                src="https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2019/12/byke-slider-1.jpg"
+                alt="Second slide"
+              />
+
+              <Carousel.Caption>
+                <h3><img src="https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2019/12/bike-name-1.png" alt="" /></h3>
+                <h1>Ultimate Horse on track</h1>
+                <h2>Honda CBR</h2>
+                
+              </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100 banner-img"
+                src="https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2019/12/byke-slider-3.jpg"
+                alt="Third slide"
+              />
+
+              <Carousel.Caption>
+                <h3><img className="img-title" src="https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2019/12/bike-name-1.png" alt="" /></h3>
+                <h1>Ultimate Horse on track</h1>
+                <h2>Honda CBR</h2>
+                
+              </Carousel.Caption>
+            </Carousel.Item>
+          </Carousel>
         </div>
       </div>
 
+        <h1 className="my-5">Our Bike For You</h1>
       <div className="products">
         {products.slice(0, 6).map((product) => (
           <ProductData key={product._id} product={product}></ProductData>
         ))}
       </div>
       <button className="view-button mt-5">
-          <Link to="/products">View All Products</Link>
-        </button>
+        <Link to="/products">View All Products</Link>
+      </button>
 
       <section className="brand-title">
         <p style={{ color: "red" }}>All Brand</p>
@@ -121,11 +161,8 @@ const Home = () => {
             <h5>Honda Civic</h5>
             <p>350,000 Taka</p>
           </div>
-          
         </div>
-        
       </section>
-      
     </div>
   );
 };
