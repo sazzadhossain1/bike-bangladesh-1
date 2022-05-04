@@ -13,7 +13,6 @@ import ProductDetails from "./components/ProductDetails/ProductDetails";
 import Products from "./components/Products/Products";
 import RequireAuth from "./components/RequireAuth/RequireAuth";
 import SignUp from "./components/SignUp/SignUp";
-import UpdateBike from "./components/UpdateBike/UpdateBike";
 
 function App() {
   return (
