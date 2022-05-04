@@ -24,23 +24,24 @@ const Header = () => {
               <Nav.Link className="text-primary" as={Link} to="/home">
                 Home
               </Nav.Link>
-              <Nav.Link className="text-primary" as={Link} to="/products">
-                Products
-              </Nav.Link>
               
+
               <Nav.Link className="text-primary" as={Link} to="/blogs">
                 Blogs
               </Nav.Link>
 
               {user ? (
                 <>
-                  <Nav.Link
+                  {/* <Nav.Link
                     className="text-primary"
                     as={Link}
                     to="/manageItems"
                   >
                     Manage Items
-                  </Nav.Link>
+                  </Nav.Link> */}
+                  <Nav.Link className="text-primary" as={Link} to="/products">
+                Products
+              </Nav.Link>
 
                   <Nav.Link className="text-primary" as={Link} to="/addItem">
                     Add Item
