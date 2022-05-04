@@ -1,7 +1,9 @@
 
 .parent-div{
-    background-color: black;
+   background-image: url("https://corredo.axiomthemes.com/splash/img/footer-top-bg.jpg");
     height: 410px;
+    
+    
 
 }
 .colum{
@@ -9,11 +11,20 @@
     grid-template-columns: repeat(3, 1fr);
     padding: 20px;
 
-    color: rgba(245, 245, 245, 0.363);
+    color: antiquewhite;
     font-size: large;
     margin: auto;
     
 }
 .CopyRight{
     color: white;
+}
+
+.footer-title{
+    color: white;
+    font-weight: 900;
+}
+.section-border{
+    border-left: solid;
+    
 }

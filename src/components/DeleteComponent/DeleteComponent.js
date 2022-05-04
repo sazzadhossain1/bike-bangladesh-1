@@ -2,41 +2,20 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./DeleteComponent.css";
 
-const DeleteComponent = ({ product }) => {
+const DeleteComponent = ({ product,handleUserDelete }) => {
+  
   console.log(product);
   const { _id, name, image, Price, quantity, supplierName } = product;
 
 
-  const [product1, setProduct1] = useState([]);
-  useEffect(() => {
-    fetch("http://localhost:5000/product")
-      .then((res) => res.json())
-      .then((data) => setProduct1(data));
-  }, []);
+  // const [product1, setProduct1] = useState([]);
+  // useEffect(() => {
+  //   fetch("http://localhost:5000/product")
+  //     .then((res) => res.json())
+  //     .then((data) => setProduct1(data));
+  // }, []);
 
-  const handleUserDelete = (productId) => {
-    const proceed = window.confirm("Are you sure you want to delete this product?");
-    if (proceed) {
-      console.log("deleting user with id, ", productId);
-      const url =` http://localhost:5000/product/${productId}`;
-      fetch(url, {
-        method: "DELETE",
-      })
-        .then((res) => res.json())
-        .then((data) => {
-            const remaining = product1.filter(product => product._id !== productId);
-        //   console.log(data);
-        //   const remaining = product1.filter(
-        //     (product) => product._id !== productId
-            
-        //   );
-
-
-          console.log(product._id);
-          setProduct1(remaining);
-        });
-    }
-  };
+  
 
 
   return (

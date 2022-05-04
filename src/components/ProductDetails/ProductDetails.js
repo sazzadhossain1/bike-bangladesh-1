@@ -13,6 +13,7 @@ const ProductDetails = () => {
       .then((res) => res.json())
       .then((data) => setProduct(data));
   }, [product]);
+ 
   return (
     <div className="mother-container">
       <div className="detail-container mt-5 mb-5">
