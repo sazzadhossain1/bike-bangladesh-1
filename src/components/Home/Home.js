@@ -32,7 +32,7 @@ const Home = () => {
       <div className="home-container">
         <div className="banner-title">
           <Carousel>
-            <Carousel.Item>
+            <Carousel.Item className="slider">
               <img
                 className="d-block w-100 banner-img"
                 src="https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2019/12/byke-slider-2.jpg"
@@ -40,11 +40,16 @@ const Home = () => {
               />
               <Carousel.Caption>
                 <h3><img src="https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2019/12/bike-name-1.png" alt="" /></h3>
+                <h4>
+                  The Racing Horse Back
+                </h4>
                 <h1>Ultimate Horse on track</h1>
                 <h2>Honda CBR</h2>
                 
               </Carousel.Caption>
             </Carousel.Item>
+
+
             <Carousel.Item>
               <img
                 className="d-block w-100 banner-img"
@@ -54,6 +59,9 @@ const Home = () => {
 
               <Carousel.Caption>
                 <h3><img src="https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2019/12/bike-name-1.png" alt="" /></h3>
+                <h4>
+                  The Racing Horse Back
+                </h4>
                 <h1>Ultimate Horse on track</h1>
                 <h2>Honda CBR</h2>
                 
@@ -68,6 +76,9 @@ const Home = () => {
 
               <Carousel.Caption>
                 <h3><img className="img-title" src="https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2019/12/bike-name-1.png" alt="" /></h3>
+                <h4>
+                  The Racing Horse Back
+                </h4>
                 <h1>Ultimate Horse on track</h1>
                 <h2>Honda CBR</h2>
                 

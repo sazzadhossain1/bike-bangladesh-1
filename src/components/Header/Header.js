@@ -15,45 +15,45 @@ const Header = () => {
     <div>
       <Navbar className="color" collapseOnSelect expand="lg" variant="dark">
         <Container>
-          <Navbar.Brand className="text-primary text" as={Link} to="/">
+          <Navbar.Brand className="text-white text" as={Link} to="/">
             BIKE BANGLADESH
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="right-nav-link ms-auto">
-              <Nav.Link className="text-primary" as={Link} to="/home">
+              <Nav.Link className="text-white font" as={Link} to="/home">
                 Home
               </Nav.Link>
               
 
-              <Nav.Link className="text-primary" as={Link} to="/blogs">
+              <Nav.Link className="text-white font" as={Link} to="/blogs">
                 Blogs
               </Nav.Link>
 
               {user ? (
                 <>
                   {/* <Nav.Link
-                    className="text-primary"
+                    className="text-white font"
                     as={Link}
                     to="/manageItems"
                   >
                     Manage Items
                   </Nav.Link> */}
-                  <Nav.Link className="text-primary" as={Link} to="/products">
+                  <Nav.Link className="text-white font" as={Link} to="/products">
                 Products
               </Nav.Link>
 
-                  <Nav.Link className="text-primary" as={Link} to="/addItem">
+                  <Nav.Link className="text-white font" as={Link} to="/addItem">
                     Add Item
                   </Nav.Link>
 
-                  <Nav.Link className="text-primary" as={Link} to="/myItems">
+                  <Nav.Link className="text-white font" as={Link} to="/myItems">
                     My Items
                   </Nav.Link>
 
                   <Nav.Link
                     onClick={handleLogOut}
-                    className="text-primary"
+                    className="text-white font"
                     as={Link}
                     to="/login"
                   >
@@ -61,12 +61,12 @@ const Header = () => {
                   </Nav.Link>
                 </>
               ) : (
-                <Nav.Link className="text-primary" as={Link} to="/login">
+                <Nav.Link className="text-white font" as={Link} to="/login">
                   Login
                 </Nav.Link>
               )}
 
-              <Nav.Link className="text-primary" as={Link} to="/signup">
+              <Nav.Link className="text-white font" as={Link} to="/signup">
                 Sign Up
               </Nav.Link>
             </Nav>

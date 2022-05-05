@@ -3,6 +3,12 @@
 }
 .text{
 font-weight: 800;
+font-size: 30px;
+
+}
+.font{
+    font-size: 20px;
+    
 }
 
 .right-nav-link{
