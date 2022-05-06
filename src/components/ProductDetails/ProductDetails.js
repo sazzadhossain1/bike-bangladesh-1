@@ -67,7 +67,7 @@ const ProductDetails = () => {
                 type="number"
                 placeholder="Add Product"
               />
-              <input type="submit" value="add" />
+              <input className="add-button" type="submit" value="Add Quantity" />
             </form>
           </div>
           <button onClick={handleDeliver} className="mt-3 add-button">Delivered</button>
