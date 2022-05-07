@@ -12,7 +12,7 @@ const Login = () => {
   const navigate = useNavigate();
 
   const location = useLocation();
-  const from = location.state?.from?.pathname || '/';
+  const from = location.state?.from?.pathname || "/";
 
   const [signInWithEmailAndPassword, user, loading, error] =
     useSignInWithEmailAndPassword(auth);
@@ -30,16 +30,14 @@ const Login = () => {
     signInWithEmailAndPassword(email, password);
   };
 
-const handleResetPassword =()=>{
-    sendPasswordResetEmail(auth,email)
-    .then(() =>{
-        alert('Sent Email for Reset Password')
-    })
-}
-
+  const handleResetPassword = () => {
+    sendPasswordResetEmail(auth, email).then(() => {
+      alert("Sent Email for Reset Password");
+    });
+  };
 
   if (user) {
-    navigate(from, {replace: true});
+    navigate(from, { replace: true });
   }
 
   return (
@@ -83,7 +81,9 @@ const handleResetPassword =()=>{
 
         <p className="google-link m-4">
           Forget Password?
-          <button onClick={handleResetPassword} className="button m-1">Reset Password</button>
+          <button onClick={handleResetPassword} className="button m-1">
+            Reset Password
+          </button>
         </p>
         <GoogleButton></GoogleButton>
       </div>

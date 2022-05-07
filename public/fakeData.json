@@ -3,72 +3,72 @@
     "_id": 1,
     "name": "Mercedez Benz",
     "Price": "620,000",
-    "quantity":"900",
-    "supplierName":"Rossy Ibrahim",
+    "quantity": "900",
+    "supplierName": "Rossy Ibrahim",
     "image": "https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2020/03/best-bike-1.png"
   },
   {
     "_id": 2,
     "name": "Honda Civic",
     "Price": "600,000",
-    "quantity":"100",
-    "supplierName":"Jhon",
+    "quantity": "100",
+    "supplierName": "Jhon",
     "image": "https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2020/03/best-bike-3.png"
   },
   {
     "_id": 3,
     "name": "BMW 720 Series",
     "Price": "800,000",
-    "quantity":"200",
-    "supplierName":"Iftekhar Ahmed",
+    "quantity": "200",
+    "supplierName": "Iftekhar Ahmed",
     "image": "https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2020/03/best-bike-2.png"
   },
   {
     "_id": 4,
     "name": "79 ADVENTURE 2010",
     "Price": "245,000",
-    "quantity":"50",
-    "supplierName":"Shoikot Hassan",
+    "quantity": "50",
+    "supplierName": "Shoikot Hassan",
     "image": "https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2020/01/t-bike-5.jpg"
   },
   {
     "_id": 5,
     "name": "79 ADVENTURE 2018",
     "Price": "390,000",
-    "quantity":"250",
-    "supplierName":"Partho Gomez",
+    "quantity": "250",
+    "supplierName": "Partho Gomez",
     "image": "https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2020/01/t-bike-4.jpg"
   },
   {
     "_id": 6,
     "name": "TSK 950CC Two Disk",
     "Price": "500,000",
-    "quantity":"110",
-    "supplierName":"Lanee Leo",
+    "quantity": "110",
+    "supplierName": "Lanee Leo",
     "image": "https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2020/01/t-bike-6.jpg"
   },
   {
     "_id": 7,
     "name": "TSK 950CC Two Disk",
     "Price": "400,000",
-    "quantity":"100",
-    "supplierName":" Leo Jhon",
+    "quantity": "100",
+    "supplierName": " Leo Jhon",
     "image": "https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2020/01/5-1-255x170.jpg"
   },
   {
     "_id": 8,
     "name": "Honda CBZ 150cc",
     "Price": "450,000",
-    "quantity":"200",
-    "supplierName":" Donal Trump",
+    "quantity": "200",
+    "supplierName": " Donal Trump",
     "image": "https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2019/11/bike-blog-3.jpg"
   },
   {
     "_id": 9,
     "name": "KTM 150cc",
     "Price": "490,000",
-    "quantity":"50",
-    "supplierName":" Joo Baiden",
+    "quantity": "50",
+    "supplierName": " Joo Baiden",
     "image": "https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2019/11/bike-blog-2.jpg"
   }
 ]

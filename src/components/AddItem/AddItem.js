@@ -1,12 +1,13 @@
 import React from "react";
 import "./AddItem.css";
+import { useAuthState } from "react-firebase-hooks/auth";
+import auth from "../../firebase.init";
 
 const AddItem = () => {
-
-
-
-
-
+  const [user] = useAuthState(auth);
+  if (user) {
+    console.log(user);
+  }
   const handleAddProduct = (event) => {
     event.preventDefault();
     const supplierName = event.target.supplierName.value;
@@ -21,7 +22,6 @@ const AddItem = () => {
       quantity,
       Price,
       image,
-      
     };
 
     // send data to the server
@@ -41,31 +41,55 @@ const AddItem = () => {
       });
   };
 
-
-
-
-
-
-
   return (
     <div className="main-div">
       <h1 className="m-5">Please Add Your Items</h1>
       <form onSubmit={handleAddProduct} className="inpur-field">
         <div className="input-div">
-          <input className="input" name="name" type="text" placeholder="Product Name" />
+          <input
+            className="input"
+            name="name"
+            type="text"
+            placeholder="Product Name"
+            required
+          />
           <br />
-          <input className="input" name="supplierName" type="text" placeholder="Supplier Name" />
+          <input
+            className="input"
+            name="supplierName"
+            type="text"
+            placeholder="Supplier Name"
+            required
+          />
           <br />
-          <input className="input" name="image" type="text" placeholder="Image Url" />
+          <input
+            className="input"
+            name="image"
+            type="text"
+            placeholder="Image Url"
+            required
+          />
           <br />
-          <input className="input" name="Price" type="text" placeholder="Price" />
+          <input
+            className="input"
+            name="Price"
+            type="text"
+            placeholder="Price"
+            required
+          />
           <br />
-          <input className="input" name="quantity" type="text" placeholder="Quantity" />
+          <input
+            className="input"
+            name="quantity"
+            type="text"
+            placeholder="Quantity"
+            required
+          />
           <br />
-          <input className="input" type="text" placeholder="Email" />
-          <br />
+          {/* <input className="input" type="text" placeholder="Email" />
+          <br /> */}
         </div>
-          <button className="update-product">Update Product</button>
+        <button className="update-product">Update Product</button>
       </form>
     </div>
   );
