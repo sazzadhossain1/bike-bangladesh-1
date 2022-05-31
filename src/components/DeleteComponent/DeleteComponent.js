@@ -8,7 +8,7 @@ const DeleteComponent = ({ product, handleUserDelete }) => {
 
   // const [product1, setProduct1] = useState([]);
   // useEffect(() => {
-  //   fetch("http://localhost:5000/product")
+  //   fetch("https://radiant-meadow-78663.herokuapp.com/product")
   //     .then((res) => res.json())
   //     .then((data) => setProduct1(data));
   // }, []);

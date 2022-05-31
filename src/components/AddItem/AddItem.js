@@ -25,7 +25,7 @@ const AddItem = () => {
     };
 
     // send data to the server
-    fetch("http://localhost:5000/product", {
+    fetch("https://radiant-meadow-78663.herokuapp.com/product", {
       method: "POST",
       headers: {
         "content-type": "application/json",

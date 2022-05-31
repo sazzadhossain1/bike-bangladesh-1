@@ -4,7 +4,7 @@ import DeleteComponent from "../DeleteComponent/DeleteComponent";
 const MyItems = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/product")
+    fetch("https://radiant-meadow-78663.herokuapp.com/product")
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);
@@ -15,7 +15,7 @@ const MyItems = () => {
     );
     if (proceed) {
       console.log("deleting user with id, ", productId);
-      const url = ` http://localhost:5000/product/${productId}`;
+      const url = ` https://radiant-meadow-78663.herokuapp.com/product/${productId}`;
       fetch(url, {
         method: "DELETE",
       })

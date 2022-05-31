@@ -23,7 +23,7 @@ import { Carousel } from "react-bootstrap";
 const Home = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/product")
+    fetch("https://radiant-meadow-78663.herokuapp.com/product")
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);

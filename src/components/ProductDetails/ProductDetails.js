@@ -9,7 +9,7 @@ const ProductDetails = () => {
 
   // console.log(product);
   useEffect(() => {
-    fetch(`http://localhost:5000/product/${productId}`)
+    fetch(`https://radiant-meadow-78663.herokuapp.com/product/${productId}`)
       .then((res) => res.json())
       .then((data) => setProduct(data));
   }, [product]);
@@ -20,7 +20,7 @@ const ProductDetails = () => {
       parseInt(e.target.addQuantity.value) + parseInt(product.quantity);
     console.log(quantity);
 
-    const url = `http://localhost:5000/product/${productId}`;
+    const url = `https://radiant-meadow-78663.herokuapp.com/product/${productId}`;
     fetch(url, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
@@ -33,10 +33,10 @@ const ProductDetails = () => {
   };
   const handleDeliver = () => {
     const quantity = product.quantity - 1;
-    
+
     console.log(quantity);
 
-    const url = `http://localhost:5000/product/${productId}`;
+    const url = `https://radiant-meadow-78663.herokuapp.com/product/${productId}`;
     fetch(url, {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
@@ -67,10 +67,16 @@ const ProductDetails = () => {
                 type="number"
                 placeholder="Add Product"
               />
-              <input className="add-button" type="submit" value="Add Quantity" />
+              <input
+                className="add-button"
+                type="submit"
+                value="Add Quantity"
+              />
             </form>
           </div>
-          <button onClick={handleDeliver} className="mt-3 add-button">Delivered</button>
+          <button onClick={handleDeliver} className="mt-3 add-button">
+            Delivered
+          </button>
         </div>
       </div>
     </div>

@@ -6,7 +6,7 @@ import "./Products.css";
 const Products = () => {
   const [products, setProducts] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/product")
+    fetch("https://radiant-meadow-78663.herokuapp.com/product")
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);
@@ -17,7 +17,7 @@ const Products = () => {
     );
     if (proceed) {
       console.log("deleting user with id, ", productId);
-      const url = ` http://localhost:5000/product/${productId}`;
+      const url = ` https://radiant-meadow-78663.herokuapp.com/product/${productId}`;
       fetch(url, {
         method: "DELETE",
       })
@@ -33,7 +33,9 @@ const Products = () => {
 
   return (
     <div className="product-container">
-      <button className="addItems"><Link  to='/addItem'>Add Items</Link></button>
+      <button className="addItems">
+        <Link to="/addItem">Add Items</Link>
+      </button>
       <h1>Our All products</h1>
       <div className="products">
         {products.map((product) => (
