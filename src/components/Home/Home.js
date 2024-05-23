@@ -29,13 +29,14 @@ const Home = () => {
   }, []);
   return (
     <div className="">
+      <h1>dfdfdfdfdf</h1>
       <div className="home-container">
         <div className="banner-title">
           <Carousel>
             <Carousel.Item className="slider">
               <img
                 className="d-block w-100 banner-img"
-                src="https://smartdatawp.com/motodeal/motor-bikes/wp-content/uploads/sites/5/2019/12/byke-slider-2.jpg"
+                src="https://static.toiimg.com/photo/80452569.cms?imgsize=89464"
                 alt="First slide"
               />
               <Carousel.Caption>
