@@ -29,7 +29,6 @@ const Home = () => {
   }, []);
   return (
     <div className="">
-      <h1>dfdfdfdfdf</h1>
       <div className="home-container">
         <div className="banner-title">
           <Carousel>
